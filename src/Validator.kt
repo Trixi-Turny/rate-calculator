@@ -4,9 +4,17 @@ object Validator {
     //file exists
     //amount validator
 
-    fun isValidEnum(s:String): Boolean  = s in FileType.values().map{it.name};
+
     fun isValidString(s: String): Boolean = s!=null;
-    fun isValidLoanAmount(n:Double, divider: Int):Boolean = n.rem(divider).equals(0);
+    fun isValidLoanAmount(n:Double, divider: Int):Boolean = n.rem(divider).equals(0)
+    fun isValidEnum(s:String):Boolean   {
 
+        FileType.values().forEach {
 
+                if(it.fileType == s){
+                   return true;
+                };
+        }
+        return false;
+    };
 }

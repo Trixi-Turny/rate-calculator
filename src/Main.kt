@@ -5,8 +5,8 @@ import java.nio.file.Path;
 
 class Main {
 
-    val filePath: String = "../loan_files";
-    val fileName: String = "market";
+    val filePath: String = "loan_files/";
+    val fileName: String = "market.csv";
 
     fun getMimeType(filePath: String, fileName: String): String {
         var mime :String = "";
@@ -21,15 +21,18 @@ class Main {
         return mime
     }
 
+    fun getFileTypeName(mime: String) : FileType {
+        return FileType.values().filter({ it.fileType == mime })[0];
+    }
+
     fun startProcess(filePath: String, fileName: String) {
         var mime = "";
         try {
             val fileProcessorFactory: FileProcessorFactory? = FileProcessorFactory();
             mime = this.getMimeType(filePath, fileName)
-            println(mime);
             if(Validator.isValidEnum(mime)){
-                val fileProcessor: FileProcessor? = fileProcessorFactory?.getFileProcessor(FileType.valueOf(mime));
-                val loans : ArrayList<Loan> = fileProcessor.processFile(filePath+"/"+fileName);
+                val fileProcessor: FileProcessor? = fileProcessorFactory?.getFileProcessor(this.getFileTypeName(mime));
+                val loans : ArrayList<Loan>? = fileProcessor?.processFile(filePath+fileName);
             }
             else{
                 throw  IllegalArgumentException();
@@ -40,7 +43,17 @@ class Main {
         }
 
     }
+
+    fun getBestLoan(amount:Int, noOfMonths:int , loans:ArrayList<Loan>){
+    
+
+
+    }
+    fun calculateInterest()
+    fun createQuote()
 }
+
+
 
     fun main(args: Array<String>) {
         val init: Main = Main();
