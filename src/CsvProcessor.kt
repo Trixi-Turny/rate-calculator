@@ -43,19 +43,18 @@ class CsvProcessor : FileProcessor {
             for (loan in loans) {
                 println(loan)
             }
+            return loans;
         } catch (e: Exception) {
             println("Reading CSV Error!")
             e.printStackTrace()
         } finally {
             try {
                 fileReader!!.close()
-                return null
             } catch (e: IOException) {
                 println("Closing fileReader Error!")
                 e.printStackTrace()
             }
         }
-            TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
 }
