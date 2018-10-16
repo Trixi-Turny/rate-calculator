@@ -1,3 +1,3 @@
 enum class FileType(val fileType: String) {
-    CSV("csv"), PDF("pdf"), TXT("txt");
+    CSV("text/csv"), PDF("application/pdf"), TXT("text/plain");
 }

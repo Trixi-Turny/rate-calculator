@@ -17,4 +17,6 @@ object Validator {
         }
         return false;
     };
+
+    fun isNotNull(obj : Any):Boolean = obj != null;
 }

@@ -10,14 +10,13 @@ class CsvProcessor : FileProcessor {
     private val rateIndex = 1
     private val amountIndex = 2
 
-
-
     val commaDelimiter = ',';
     override fun processFile(path:String): ArrayList<Loan>? {
+        val loans = ArrayList<Loan>() ;
 
         var fileReader: BufferedReader? = null
         try {
-            val loans = ArrayList<Loan>() ;
+
             var line: String?
 
             fileReader = BufferedReader(FileReader(path))
@@ -38,23 +37,21 @@ class CsvProcessor : FileProcessor {
 
                 line = fileReader.readLine()
             }
-
-// Print the new customer list
-            for (loan in loans) {
-                println(loan)
-            }
             return loans;
         } catch (e: Exception) {
-            println("Reading CSV Error!")
+            println("There was an error reading the file.")
             e.printStackTrace()
         } finally {
             try {
-                fileReader!!.close()
+                fileReader!!.close();
             } catch (e: IOException) {
-                println("Closing fileReader Error!")
+                println("There was an error closing the file. ")
                 e.printStackTrace()
             }
         }
+
+        return loans;
+
     }
 
 }
