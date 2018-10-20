@@ -8,7 +8,7 @@ class Main {
     val filePath: String = "loan_files/";
     val fileName: String = "market.csv";
 
-    val amountRequested :Double = 1000.0;
+    val amountRequested :Int  = 1000;
     val noOfMonths = 36;
     fun getMimeType(filePath: String, fileName: String): String {
         var mime: String = "";
@@ -41,11 +41,13 @@ class Main {
                     println(bestLoan.toString())
 
 
-                    val monthlyRepayable = bestLoan?.calculateMonthlyRepayment(this.amountRequested, bestLoan.rate, noOfMonths);
-                    val totalRepayable = bestLoan?.calculateTotalAmount(this.amountRequested, bestLoan.rate, noOfMonths);
+                    val monthlyRepayable = bestLoan?.calculateMonthlyRepayment(amountRequested.toDouble(), bestLoan?.rate, noOfMonths.toDouble()/12, 1);
+                    val totalRepayable = bestLoan?.calculateTotalAmount(amountRequested.toDouble(), bestLoan?.rate, noOfMonths.toDouble(), 1);
+                        println(monthlyRepayable);
 
-                    val quote = Quote(this.amountRequested, bestLoan?.roundItToOne(bestLoan?.rate), bestLoan?.roundItToTwo(monthlyRepayable), bestLoan?.roundItToTwo(totalRepayable));
+                    val quote = Quote(this.amountRequested, bestLoan?.roundItToOne(bestLoan?.rate), monthlyRepayable, bestLoan?.roundItToTwo(totalRepayable));
                     println(quote.toString());
+                    println(bestLoan?.calculateMonthlyRepayment(amountRequested.toDouble(), bestLoan?.rate, noOfMonths.toDouble()/12, 1))
                 }
 
             } else {
@@ -59,16 +61,13 @@ class Main {
 
     }
 
-    fun getBestLoan(amount: Double, noOfMonths: Int, loans: ArrayList<Loan>): Loan? {
-
-
+    fun getBestLoan(amount: Int, noOfMonths: Int, loans: ArrayList<Loan>): Loan? {
             val bestLoan = loans.filter({ it.availableAmount > amount }).minBy { it.rate };
 
             if(bestLoan == null){
                 println("It is not possible to provide a quote at this time.");
 
             }
-
             return bestLoan;
 
     }
@@ -83,4 +82,5 @@ class Main {
     fun main(args: Array<String>) {
         val init: Main = Main();
         init.startProcess(init.filePath, init.fileName);
+
     }

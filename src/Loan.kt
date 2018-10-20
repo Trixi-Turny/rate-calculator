@@ -1,30 +1,26 @@
 import kotlin.math.round
 import java.math.RoundingMode
 import java.text.DecimalFormat
-import kotlin.math.pow
 
 
 data class Loan(val lender: String, var rate:Double, var availableAmount:Double) {
 
-    fun calculateMonthlyRepayment(amount:Double, rate:Double, noOfMonths:Int):Double{
+    //ref: https://stackoverflow.com/questions/7827352/excel-pmt-function-in-java/42552043#42552043
 
-        val yearlyInterest = amount*rate *12;
-        if(Validator.isNotNull(rate)|| Validator.isNotNull(noOfMonths)){
-            return ;
-        }
-        throw  IllegalArgumentException("amount or rate can not be null");
+    fun calculateMonthlyRepayment(amount: Double, interestRate: Double, numberOfYears: Double, calculationPeriod: Int): Double {
+        val paymentsPerYear = 12.0 / (numberOfYears * 12.0) * (numberOfYears * 12.0) / calculationPeriod
+        val period = 1 / paymentsPerYear
 
-    }
-    fun calculateTotalAmount(amount:Double, rate:Double, noOfMonths:Int): Double{
-        if(Validator.isNotNull(rate)|| Validator.isNotNull(noOfMonths)) {
-            return calculateMonthlyRepayment (amount, rate, noOfMonths)* noOfMonths;
-        }else{
-            println("in total");
-            throw IllegalArgumentException("amount or rate can not be null");
-        }
-
+        val interest = Math.pow(1 + interestRate, period) - 1
+        val decursiveFactor = 1 + interest
+        val annuityCalc = Math.pow(decursiveFactor, numberOfYears * 12) * (decursiveFactor - 1) / (Math.pow(decursiveFactor, numberOfYears * 12) - 1)
+        return Math.round(amount * annuityCalc * 100.0) / 100.0
     }
 
+    fun calculateTotalAmount(amount: Double, interestRate: Double, numberOfMonths: Double, calculationPeriod: Int): Double{
+        return calculateMonthlyRepayment(amount, interestRate, numberOfMonths/12, calculationPeriod)*numberOfMonths;
+
+    }
 
 
 
@@ -36,10 +32,14 @@ data class Loan(val lender: String, var rate:Double, var availableAmount:Double)
         }
         return null;
     }
+
     fun roundItToOne    (x: Double) :Double? {
         if (x != null) {
             return round(x * 1000) / 10
         }
         return null;
     }
+
+
+
 }
