@@ -38,13 +38,16 @@ class Main {
                 if (loans != null) {
                     val bestLoan = getBestLoan(this.amountRequested, noOfMonths, loans);
                     println(bestLoan.toString())
+                    if(bestLoan!=null) {
 
+                        val paymentCalculator = PaymentCalculator();
 
-                    val monthlyRepayable = bestLoan?.calculateMonthlyRepayment(amountRequested.toDouble(), bestLoan?.rate, noOfMonths.toDouble()/12, 1);
-                    val totalRepayable = bestLoan?.calculateTotalAmount(amountRequested.toDouble(), bestLoan?.rate, noOfMonths.toDouble(), 1);
+                        val monthlyRepayable = paymentCalculator.calculateMonthlyRepayment(amountRequested.toDouble(), bestLoan.rate, noOfMonths.toDouble() / 12, 1);
+                        val totalRepayable = paymentCalculator.calculateTotalAmount(amountRequested.toDouble(), bestLoan.rate, noOfMonths.toDouble(), 1);
 
-                    val quote = Quote(this.amountRequested, bestLoan?.roundItToOne(bestLoan?.rate), monthlyRepayable, bestLoan?.roundItToTwo(totalRepayable));
-                    println(quote.toString());
+                        val quote = Quote(this.amountRequested, paymentCalculator.roundRate(bestLoan?.rate), monthlyRepayable, paymentCalculator.roundIt(totalRepayable, 2));
+                        println(quote.toString());
+                    }
                 }
 
             } else {
@@ -61,7 +64,7 @@ class Main {
             val bestLoan = loans.filter({ it.availableAmount > amount }).minBy { it.rate };
 
             if(bestLoan == null){
-                println("It is not possible to provide a quote at this time.");
+                ("It is not possible to provide a quote at this time.");
 
             }
             return bestLoan;

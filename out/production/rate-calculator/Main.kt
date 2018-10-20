@@ -37,24 +37,23 @@ class Main {
                 val loans: ArrayList<Loan>? = fileProcessor?.processFile(filePath + fileName);
                 if (loans != null) {
                     val bestLoan = getBestLoan(this.amountRequested, noOfMonths, loans);
-//                    val quote = Quote(amount, rate, noOfMonths,);
                     println(bestLoan.toString())
+                    if(bestLoan!=null) {
 
+                        val paymentCalculator = PaymentCalculator();
 
-                    val monthlyRepayable = bestLoan?.calculateMonthlyRepayment(amountRequested.toDouble(), bestLoan?.rate, noOfMonths.toDouble()/12, 1);
-                    val totalRepayable = bestLoan?.calculateTotalAmount(amountRequested.toDouble(), bestLoan?.rate, noOfMonths.toDouble(), 1);
-                        println(monthlyRepayable);
+                        val monthlyRepayable = paymentCalculator.calculateMonthlyRepayment(amountRequested.toDouble(), bestLoan.rate, noOfMonths.toDouble() / 12, 1);
+                        val totalRepayable = paymentCalculator.calculateTotalAmount(amountRequested.toDouble(), bestLoan.rate, noOfMonths.toDouble(), 1);
 
-                    val quote = Quote(this.amountRequested, bestLoan?.roundItToOne(bestLoan?.rate), monthlyRepayable, bestLoan?.roundItToTwo(totalRepayable));
-                    println(quote.toString());
-                    println(bestLoan?.calculateMonthlyRepayment(amountRequested.toDouble(), bestLoan?.rate, noOfMonths.toDouble()/12, 1))
+                        val quote = Quote(this.amountRequested, paymentCalculator.roundRate(bestLoan?.rate), monthlyRepayable, paymentCalculator.roundIt(totalRepayable, 2));
+                        println(quote.toString());
+                    }
                 }
 
             } else {
                 throw  IllegalArgumentException("Unsupported File Type: " + mime+FileType.values().forEach { println(it.name) });
             }
         } catch (e: IllegalArgumentException) {
-            println("Pff");
             println(e.message)
 
         }
@@ -65,16 +64,13 @@ class Main {
             val bestLoan = loans.filter({ it.availableAmount > amount }).minBy { it.rate };
 
             if(bestLoan == null){
-                println("It is not possible to provide a quote at this time.");
+                ("It is not possible to provide a quote at this time.");
 
             }
             return bestLoan;
 
     }
 
-
-//    fun calculateInterest()
-//    fun createQuote()
 }
 
 

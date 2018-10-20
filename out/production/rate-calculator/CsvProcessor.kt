@@ -4,6 +4,10 @@ import java.io.IOException
 import java.util.ArrayList
 
 
+/**
+ * Facilitates the processing of CSV files
+ */
+
 class CsvProcessor : FileProcessor {
 
     private val lenderIndex = 0
@@ -11,6 +15,7 @@ class CsvProcessor : FileProcessor {
     private val amountIndex = 2
 
     val commaDelimiter = ',';
+
     override fun processFile(path:String): ArrayList<Loan>? {
         val loans = ArrayList<Loan>() ;
 
@@ -25,7 +30,7 @@ class CsvProcessor : FileProcessor {
             fileReader.readLine()
             line = fileReader.readLine()
             while (line != null) {
-                val tokens = line.split(commaDelimiter)
+                val tokens = line.split(this.commaDelimiter)
                 if (tokens.size > 0) {
                     val loan = Loan(
                             tokens[lenderIndex],

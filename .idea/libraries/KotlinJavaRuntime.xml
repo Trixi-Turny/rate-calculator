@@ -11,6 +11,7 @@
       <root url="jar://$USER_HOME$/Downloads/junit-jupiter-api-5.3.1.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/junit-jupiter-engine-5.3.1.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/junit-platform-runner-1.3.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/hamcrest-core-1.3 (1).jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
