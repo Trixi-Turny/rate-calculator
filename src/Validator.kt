@@ -5,8 +5,8 @@ object Validator {
     //amount validator
 
 
-    fun isValidString(s: String): Boolean = s!=null;
-    fun isValidLoanAmount(n:Double, divider: Int):Boolean = n.rem(divider).equals(0)
+    fun isValidString(s: String): Boolean = s!=null || !s.equals("") ;
+    fun isValidLoanAmount(n:Double, divider: Int):Boolean = n.rem(divider).equals(0.00)
     fun isValidEnum(s:String):Boolean   {
 
         FileType.values().forEach {
