@@ -1,13 +1,7 @@
 class Main {
 
     val filePath: String = System.getProperty("user.dir")+"/src/loan_files/";
-//    val fileName: String = "market.csv";
-//
-//    val amountRequested :Int  = 1000;
     val noOfMonths = 36;
-
-
-
     fun startProcess(filePath: String, fileName: String, amountRequested: Int) {
         val file = File(filePath, fileName);
 
@@ -32,7 +26,7 @@ class Main {
                 }
 
             } else {
-                throw  IllegalArgumentException("Unsupported File Type: " + mime+FileType.values().forEach { println(it.name) });
+                throw  IllegalArgumentException("Unsupported File Type: " +mime+ "Currently supported file types are:"+ (FileType.values().forEach { println(it.name) })s);
             }
         } catch (e: IllegalArgumentException) {
             println(e.message)
@@ -60,6 +54,8 @@ class Main {
         var fileName:String ="";
         var amountRequested:Double;
         if(args.size > 0){
+            //TODO:validate args
+
             for(i:Int in 0..args.size-1){
                 if(Validator.isValidString(args[i])){
                     if(i==0){
@@ -73,10 +69,8 @@ class Main {
                                 val init: Main = Main();
                                 init.startProcess(init.filePath, fileName, amountRequested.toInt() );
 
-
-
                             }else{
-                                println("Unfortunately the number entered is not a valid loan amount. Loans have to be egzact multiples of "+ divider)
+                                println("Unfortunately the number entered is not a valid loan amount. Loans have to be exact multiples of "+ divider)
                             }
                         }catch(e: IllegalArgumentException){
                             println("amount can not be converted to a number.")

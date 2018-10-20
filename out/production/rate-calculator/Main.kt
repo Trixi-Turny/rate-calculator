@@ -32,7 +32,7 @@ class Main {
                 }
 
             } else {
-                throw  IllegalArgumentException("Unsupported File Type: " + mime+FileType.values().forEach { println(it.name) });
+                throw  IllegalArgumentException("Unsupported File Type: " +mime+ "Currently supported file types are:"+ FileType.values().forEach { println(it.name) });
             }
         } catch (e: IllegalArgumentException) {
             println(e.message)
@@ -76,7 +76,7 @@ class Main {
 
 
                             }else{
-                                println("Unfortunately the number entered is not a valid loan amount. Loans have to be egzact multiples of "+ divider)
+                                println("Unfortunately the number entered is not a valid loan amount. Loans have to be exsact multiples of "+ divider)
                             }
                         }catch(e: IllegalArgumentException){
                             println("amount can not be converted to a number.")
