@@ -1,8 +1,3 @@
-import java.nio.file.FileSystems
-import java.nio.file.Files;
-import java.nio.file.Path;
-
-
 class Main {
 
     val filePath: String = "loan_files/";
@@ -10,42 +5,28 @@ class Main {
 
     val amountRequested :Int  = 1000;
     val noOfMonths = 36;
-    fun getMimeType(filePath: String, fileName: String): String {
-        var mime: String = "";
 
-        try {
-            val path: Path = FileSystems.getDefault().getPath(filePath, fileName)
-            mime = Files.probeContentType(path);
-
-        } catch (e: IllegalStateException) {
-            println("Could not found file with name: " + fileName);
-        }
-        return mime
-    }
-
-    fun getFileTypeName(mime: String): FileType {
-        return FileType.values().filter({ it.fileType == mime })[0];
-    }
+    val file = File(filePath, fileName);
 
     fun startProcess(filePath: String, fileName: String) {
-        var mime = "";
+
         try {
+            val mime: String
             val fileProcessorFactory: FileProcessorFactory? = FileProcessorFactory();
-            mime = this.getMimeType(filePath, fileName)
+            mime = this.file.getMimeType()
             if (Validator.isValidEnum(mime)) {
-                val fileProcessor: FileProcessor? = fileProcessorFactory?.getFileProcessor(this.getFileTypeName(mime));
-                val loans: ArrayList<Loan>? = fileProcessor?.processFile(filePath + fileName);
+                val fileProcessor: FileProcessor? = fileProcessorFactory?.getFileProcessor(this.file.getFileTypeName(mime));
+
+                val loans: ArrayList<Loan>? = fileProcessor?.processFile(this.file.filePath + this.file.fileName);
                 if (loans != null) {
                     val bestLoan = getBestLoan(this.amountRequested, noOfMonths, loans);
                     println(bestLoan.toString())
                     if(bestLoan!=null) {
-
                         val paymentCalculator = PaymentCalculator();
-
                         val monthlyRepayable = paymentCalculator.calculateMonthlyRepayment(amountRequested.toDouble(), bestLoan.rate, noOfMonths.toDouble() / 12, 1);
                         val totalRepayable = paymentCalculator.calculateTotalAmount(amountRequested.toDouble(), bestLoan.rate, noOfMonths.toDouble(), 1);
 
-                        val quote = Quote(this.amountRequested, paymentCalculator.roundRate(bestLoan?.rate), monthlyRepayable, paymentCalculator.roundIt(totalRepayable, 2));
+                        val quote = Quote(this.amountRequested, paymentCalculator.roundRate(bestLoan.rate), monthlyRepayable, paymentCalculator.roundIt(totalRepayable, 2));
                         println(quote.toString());
                     }
                 }

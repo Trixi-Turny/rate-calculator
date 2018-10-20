@@ -4,4 +4,8 @@
 data class Loan(val lender: String, var rate:Double, var availableAmount:Double) {
 
 
+
+
+
+
 }

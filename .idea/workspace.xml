@@ -2,35 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1624d73-d6c8-4433-8e49-4401d329f42e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/PaymentCalculator.kt" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/.idea/libraries/KotlinJavaRuntime.xml" afterPath="$PROJECT_DIR$/out/production/rate-calculator/.idea/libraries/KotlinJavaRuntime.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/rate-calculator/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/CsvProcessor.class" afterPath="$PROJECT_DIR$/out/production/rate-calculator/CsvProcessor.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/CsvProcessor.kt" afterPath="$PROJECT_DIR$/out/production/rate-calculator/CsvProcessor.kt" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/FileProcessor.class" afterPath="$PROJECT_DIR$/out/production/rate-calculator/FileProcessor.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/FileProcessor.kt" afterPath="$PROJECT_DIR$/out/production/rate-calculator/FileProcessor.kt" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/FileProcessorFactory$WhenMappings.class" afterPath="$PROJECT_DIR$/out/production/rate-calculator/FileProcessorFactory$WhenMappings.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/FileProcessorFactory.class" afterPath="$PROJECT_DIR$/out/production/rate-calculator/FileProcessorFactory.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/FileType.class" afterPath="$PROJECT_DIR$/out/production/rate-calculator/FileType.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/FileType.kt" afterPath="$PROJECT_DIR$/out/production/rate-calculator/FileType.kt" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/Loan.class" afterPath="$PROJECT_DIR$/out/production/rate-calculator/Loan.class" />
       <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/Loan.kt" afterPath="$PROJECT_DIR$/out/production/rate-calculator/Loan.kt" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/META-INF/rate-calculator.kotlin_module" afterPath="$PROJECT_DIR$/out/production/rate-calculator/META-INF/rate-calculator.kotlin_module" />
       <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/Main.class" afterPath="$PROJECT_DIR$/out/production/rate-calculator/Main.class" />
       <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/Main.kt" afterPath="$PROJECT_DIR$/out/production/rate-calculator/Main.kt" />
       <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/MainKt.class" afterPath="$PROJECT_DIR$/out/production/rate-calculator/MainKt.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/Quote.class" afterPath="$PROJECT_DIR$/out/production/rate-calculator/Quote.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/Quote.kt" afterPath="$PROJECT_DIR$/out/production/rate-calculator/Quote.kt" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/RateCalculatorTest.class" afterPath="$PROJECT_DIR$/out/production/rate-calculator/RateCalculatorTest.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/RateCalculatorTest2.class" afterPath="$PROJECT_DIR$/out/production/rate-calculator/RateCalculatorTest2.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/TxtProcessor.class" afterPath="$PROJECT_DIR$/out/production/rate-calculator/TxtProcessor.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/Validator.class" afterPath="$PROJECT_DIR$/out/production/rate-calculator/Validator.class" />
-      <change beforePath="$PROJECT_DIR$/src/FileProcessor.kt" afterPath="$PROJECT_DIR$/src/FileProcessor.kt" />
+      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/PaymentCalculator.kt" afterPath="$PROJECT_DIR$/out/production/rate-calculator/PaymentCalculator.kt" />
+      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/PaymentCalculatorTest.kt" afterPath="$PROJECT_DIR$/out/production/rate-calculator/PaymentCalculatorTest.kt" />
+      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/TxtProcessor.kt" afterPath="$PROJECT_DIR$/out/production/rate-calculator/TxtProcessor.kt" />
       <change beforePath="$PROJECT_DIR$/src/Loan.kt" afterPath="$PROJECT_DIR$/src/Loan.kt" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" afterPath="$PROJECT_DIR$/src/Main.kt" />
-      <change beforePath="$PROJECT_DIR$/src/Quote.kt" afterPath="$PROJECT_DIR$/src/Quote.kt" />
+      <change beforePath="$PROJECT_DIR$/src/PaymentCalculator.kt" afterPath="$PROJECT_DIR$/src/PaymentCalculator.kt" />
+      <change beforePath="$PROJECT_DIR$/src/PaymentCalculatorTest.kt" afterPath="$PROJECT_DIR$/src/PaymentCalculatorTest.kt" />
+      <change beforePath="$PROJECT_DIR$/src/TxtProcessor.kt" afterPath="$PROJECT_DIR$/src/TxtProcessor.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,53 +30,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="88" lean-forward="false" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="File.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/File.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding>
-                <element signature="e#0#87#0" expanded="true" />
+                <element signature="e#0#85#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RateCalculatorTest2.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RateCalculatorTest2.kt">
+      <file leaf-file-name="FileTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FileTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#204#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TxtProcessor.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TxtProcessor.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quote.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Quote.kt">
+      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loan_files/test.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileProcessor.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FileProcessor.kt">
+      <file leaf-file-name="market.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loan_files/market.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CsvProcessor.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CsvProcessor.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -100,42 +97,38 @@
       <file leaf-file-name="Loan.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Loan.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PaymentCalculator.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/PaymentCalculator.kt">
+      <file leaf-file-name="market.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loan_files/market.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="50" column="12" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-              <folding>
-                <element signature="e#1#83#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PaymentCalculatorTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PaymentCalculatorTest.kt">
+      <file leaf-file-name="market" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loan_files/market">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="2" selection-end-line="99" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#81#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InterestCalculator2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../14. Java/SP1/2./InterestCalculator2.java">
+      <file leaf-file-name="FileType.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FileType.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -169,7 +162,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/File.kt" />
         <option value="$PROJECT_DIR$/src/FileProcessorStrategyFactory.kt" />
         <option value="$PROJECT_DIR$/src/FileProcessorFactory.kt" />
         <option value="$PROJECT_DIR$/test/RateCalculatorTest.kt" />
@@ -177,18 +169,20 @@
         <option value="$PROJECT_DIR$/src/Tests/RateCalculatorTest.kt" />
         <option value="$PROJECT_DIR$/src/RateCalculatorTest.kt" />
         <option value="$PROJECT_DIR$/src/RateCalculatorTest2.kt" />
-        <option value="$PROJECT_DIR$/src/TxtProcessor.kt" />
         <option value="$PROJECT_DIR$/src/Validator.kt" />
         <option value="$PROJECT_DIR$/loan_files/market.csv" />
         <option value="$PROJECT_DIR$/src/CsvProcessor.kt" />
         <option value="$PROJECT_DIR$/src/FileType.kt" />
         <option value="$PROJECT_DIR$/src/FileProcessor.kt" />
         <option value="$PROJECT_DIR$/src/Quote.kt" />
-        <option value="$PROJECT_DIR$/src/Loan.kt" />
         <option value="$PROJECT_DIR$/src/LoanTest.kt" />
-        <option value="$PROJECT_DIR$/src/Main.kt" />
-        <option value="$PROJECT_DIR$/src/PaymentCalculatorTest.kt" />
         <option value="$PROJECT_DIR$/src/PaymentCalculator.kt" />
+        <option value="$PROJECT_DIR$/src/PaymentCalculatorTest.kt" />
+        <option value="$PROJECT_DIR$/src/Loan.kt" />
+        <option value="$PROJECT_DIR$/src/TxtProcessor.kt" />
+        <option value="$PROJECT_DIR$/src/File.kt" />
+        <option value="$PROJECT_DIR$/src/FileTest.kt" />
+        <option value="$PROJECT_DIR$/src/Main.kt" />
       </list>
     </option>
   </component>
@@ -242,13 +236,7 @@
               <item name="RateCalculator" type="b2602c69:ProjectViewProjectNode" />
               <item name="rate-calculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Quote" type="2c5a2ef7:KtClassOrObjectTreeNode" />
-            </path>
-            <path>
-              <item name="RateCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rate-calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="RateCalculatorTest2" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+              <item name="FileType" type="2c5a2ef7:KtClassOrObjectTreeNode" />
             </path>
             <path>
               <item name="RateCalculator" type="b2602c69:ProjectViewProjectNode" />
@@ -288,6 +276,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/loan_files" />
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
   </component>
@@ -303,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PaymentCalculatorTest">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -345,13 +334,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LoanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="rate-calculator" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoanTest" />
+      <option name="MAIN_CLASS_NAME" value="FileTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -365,14 +354,34 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LoanTest.calculateMonthlyRepayment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileTest.getMimeTypeOfCsv_shouldReturn_text_csv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="rate-calculator" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoanTest" />
-      <option name="METHOD_NAME" value="calculateMonthlyRepayment" />
+      <option name="MAIN_CLASS_NAME" value="FileTest" />
+      <option name="METHOD_NAME" value="getMimeTypeOfCsv_shouldReturn_text_csv" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="FileTest.getMimeTypeOfCsv_shouldReturn_text_csv_evenIfNoExtension" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="rate-calculator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FileTest" />
+      <option name="METHOD_NAME" value="getMimeTypeOfCsv_shouldReturn_text_csv_evenIfNoExtension" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -394,26 +403,6 @@
       <option name="MAIN_CLASS_NAME" value="PaymentCalculatorTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="PaymentCalculatorTest.calculateMonthlyRepayment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="rate-calculator" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PaymentCalculatorTest" />
-      <option name="METHOD_NAME" value="calculateMonthlyRepayment" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -546,18 +535,18 @@
       <item index="1" class="java.lang.String" itemvalue="JUnit.All in rate-calculator" />
       <item index="2" class="java.lang.String" itemvalue="Kotlin.main" />
       <item index="3" class="java.lang.String" itemvalue="Kotlin.MainKt" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LoanTest.calculateMonthlyRepayment" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.LoanTest" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.PaymentCalculatorTest.calculateMonthlyRepayment" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.PaymentCalculatorTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PaymentCalculatorTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.FileTest.getMimeTypeOfCsv_shouldReturn_text_csv" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.FileTest.getMimeTypeOfCsv_shouldReturn_text_csv_evenIfNoExtension" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.FileTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PaymentCalculatorTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PaymentCalculatorTest.calculateMonthlyRepayment" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LoanTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LoanTest.calculateMonthlyRepayment" />
-        <item index="4" class="java.lang.String" itemvalue="Kotlin.MainKt" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.MainKt" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FileTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PaymentCalculatorTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FileTest.getMimeTypeOfCsv_shouldReturn_text_csv_evenIfNoExtension" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FileTest.getMimeTypeOfCsv_shouldReturn_text_csv" />
       </list>
     </recent_temporary>
   </component>
@@ -582,48 +571,47 @@
       <workItem from="1539554038393" duration="7337000" />
       <workItem from="1539600260054" duration="41029000" />
       <workItem from="1540047153492" duration="599000" />
-      <workItem from="1540048200712" duration="4635000" />
+      <workItem from="1540048200712" duration="12969000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PaymentCalculatorTest - 2018.10.20 at 17h 48m 52s.xml">
-      <configuration name="PaymentCalculatorTest" configurationId="JUnit" />
+    <history-entry file="FileTest - 2018.10.20 at 20h 19m 46s.xml">
+      <configuration name="FileTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaymentCalculatorTest - 2018.10.20 at 17h 49m 43s.xml">
-      <configuration name="PaymentCalculatorTest" configurationId="JUnit" />
+    <history-entry file="FileTest - 2018.10.20 at 20h 19m 57s.xml">
+      <configuration name="FileTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaymentCalculatorTest - 2018.10.20 at 17h 51m 24s.xml">
-      <configuration name="PaymentCalculatorTest" configurationId="JUnit" />
+    <history-entry file="FileTest - 2018.10.20 at 20h 20m 19s.xml">
+      <configuration name="FileTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaymentCalculatorTest - 2018.10.20 at 17h 55m 39s.xml">
-      <configuration name="PaymentCalculatorTest" configurationId="JUnit" />
+    <history-entry file="FileTest - 2018.10.20 at 20h 20m 57s.xml">
+      <configuration name="FileTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaymentCalculatorTest - 2018.10.20 at 17h 56m 29s.xml">
-      <configuration name="PaymentCalculatorTest" configurationId="JUnit" />
+    <history-entry file="FileTest - 2018.10.20 at 20h 21m 32s.xml">
+      <configuration name="FileTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaymentCalculatorTest - 2018.10.20 at 17h 56m 45s.xml">
-      <configuration name="PaymentCalculatorTest" configurationId="JUnit" />
+    <history-entry file="FileTest - 2018.10.20 at 20h 22m 09s.xml">
+      <configuration name="FileTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaymentCalculatorTest - 2018.10.20 at 17h 56m 57s.xml">
-      <configuration name="PaymentCalculatorTest" configurationId="JUnit" />
+    <history-entry file="FileTest - 2018.10.20 at 20h 28m 18s.xml">
+      <configuration name="FileTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaymentCalculatorTest - 2018.10.20 at 17h 57m 33s.xml">
-      <configuration name="PaymentCalculatorTest" configurationId="JUnit" />
+    <history-entry file="FileTest - 2018.10.20 at 20h 28m 43s.xml">
+      <configuration name="FileTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaymentCalculatorTest - 2018.10.20 at 17h 59m 11s.xml">
-      <configuration name="PaymentCalculatorTest" configurationId="JUnit" />
+    <history-entry file="FileTest - 2018.10.20 at 20h 29m 58s.xml">
+      <configuration name="FileTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PaymentCalculatorTest - 2018.10.20 at 17h 59m 53s.xml">
-      <configuration name="PaymentCalculatorTest" configurationId="JUnit" />
+    <history-entry file="FileTest - 2018.10.20 at 20h 30m 24s.xml">
+      <configuration name="FileTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53600000" />
+    <option name="totallyTimeSpent" value="61934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1656" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -633,13 +621,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.31219807" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.68780196" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.68780196" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -652,7 +641,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -670,12 +658,12 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49275362" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.4710145" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.4710145" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.68780196" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.68780196" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -706,56 +694,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FileType.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LoanTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="43" column="140" lean-forward="false" selection-start-line="43" selection-start-column="140" selection-end-line="43" selection-end-column="140" />
-          <folding>
-            <element signature="e#0#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RateCalculatorTest2.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileProcessor.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Quote.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CsvProcessor.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -808,9 +746,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#87#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -989,14 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TxtProcessor.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FileProcessorFactory.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1013,34 +941,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileType.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loan_files/market.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../14. Java/SP1/2./InterestCalculator2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CsvProcessor.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1069,14 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loan.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LoanTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1085,33 +981,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.kt">
+    <entry file="file://$PROJECT_DIR$/src/PaymentCalculator.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="750">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
-            <element signature="e#0#87#0" expanded="true" />
+            <element signature="e#1#83#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PaymentCalculatorTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="2" selection-end-line="99" selection-end-column="7" />
+        <state relative-caret-position="1410">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
           <folding>
             <element signature="e#0#81#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PaymentCalculator.kt">
+    <entry file="file://$PROJECT_DIR$/src/CsvProcessor.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="50" column="12" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        <state relative-caret-position="-101">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loan.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan_files/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan_files/market.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan_files/market.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan_files/csvWithWrongExtension.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loan_files/market">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileType.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TxtProcessor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/File.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
-            <element signature="e#1#83#0" expanded="true" />
+            <element signature="e#0#85#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="88" lean-forward="false" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>

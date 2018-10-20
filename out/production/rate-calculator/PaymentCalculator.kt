@@ -48,7 +48,7 @@ class PaymentCalculator {
             val bd  = BigDecimal.valueOf(x);
             val rounded = bd.setScale(scale, RoundingMode.HALF_UP);
             return rounded.toDouble();
-            
+
         }
         return null;
     }

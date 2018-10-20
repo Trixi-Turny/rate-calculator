@@ -92,12 +92,7 @@ class PaymentCalculatorTest() {
         assertEquals(7.0, rounded);
     }
 
-//    fun roundRateShouldReturnNull_WhenValueIsNull() {
-//        val rate = null;
-//        val calculator = PaymentCalculator();
-//        val rounded = calculator.roundRate(null);
-//        assertEquals(null, rounded);
-//    }
+
 
 
 }
