@@ -38,6 +38,11 @@ class Main {
 
     }
 
+    /**
+     * Helper function to get Best available loan from list - if any
+     * @param amount:Int - amount requested
+     * @param loans:ArrayList<Loan>  - the list of loans
+     */
     fun getBestLoan(amount: Int, loans: ArrayList<Loan>): Loan? {
             val bestLoan = loans.filter({ it.availableAmount > amount }).minBy { it.rate };
 
