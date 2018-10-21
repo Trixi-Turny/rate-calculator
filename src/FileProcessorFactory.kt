@@ -1,6 +1,9 @@
 
 import javax.swing.text.html.parser.DTDConstants.CURRENT
 
+/**
+ * Factory for various file processor types
+ */
 class FileProcessorFactory() {
     final val csvProcessor: FileProcessor = CsvProcessor();
     final val txtProcessor: FileProcessor = TxtProcessor();

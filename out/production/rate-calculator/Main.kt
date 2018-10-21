@@ -1,3 +1,6 @@
+/**
+ * Facilitate logic for main process
+ */
 class Main {
 
     val filePath: String = System.getProperty("user.dir")+"/src/loan_files/";

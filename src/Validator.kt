@@ -3,16 +3,11 @@ import kotlin.IllegalArgumentException
 
 object Validator {
 
-    //String validator for filename
-    //file exists
-    //amount validator
-
-
     /**
      * Checks is string is not null ot empty
      * @param s : String - the string we are checking
      */
-    fun isValidString(s: String): Boolean = s!=null || !s.equals("") ;
+    fun isValidString(s: String?): Boolean = s!=null || !s.equals("") ;
 
 
     /**
@@ -72,6 +67,4 @@ object Validator {
         return false;
     };
 
-
-    fun isNotNull(obj : Any):Boolean = obj != null;
 }

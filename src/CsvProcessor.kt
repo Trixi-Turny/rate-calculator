@@ -16,6 +16,10 @@ class CsvProcessor : FileProcessor {
 
     val commaDelimiter = ',';
 
+    /**
+     * Reads and saves information from comma delimited CSV
+     * @param path:String - the file path
+     */
     override fun processFile(path:String): ArrayList<Loan>? {
         val loans = ArrayList<Loan>() ;
 

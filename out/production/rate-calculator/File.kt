@@ -2,8 +2,15 @@ import java.nio.file.FileSystems
 import java.nio.file.Files
 import java.nio.file.Path
 
-class File(val filePath: String, val fileName: String) {
+/**
+ * store information about a File
+ */
+data class File(val filePath: String, val fileName: String) {
 
+
+    /**
+     * gets the mime type information of this file
+     */
     fun getMimeType(): String {
         var mime: String = "";
 
