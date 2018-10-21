@@ -55,4 +55,11 @@ class ValidatorTest{
         assertEquals(true, bool);
     }
 
+
+    @Test
+    fun returnsTrueIfThereAre2Args(){
+        val bool = Validator.isValidArgs(arrayOf("market", "88"), 2);
+        assertEquals(true, bool);
+    }
+
 }

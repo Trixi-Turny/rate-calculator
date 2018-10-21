@@ -14,7 +14,7 @@ class MainTest {
                 Loan("fred", 0.06, 100.0)
         );
 
-        assertEquals(loans[1], mainProcess.getBestLoan(1000, 36, loans));
+        assertEquals(loans[1], mainProcess.getBestLoan(1000, loans));
 
     }
 
@@ -28,16 +28,9 @@ class MainTest {
                 Loan("fred", 0.06, 100.0)
         );
 
-        assertEquals(null, mainProcess.getBestLoan(3000, 36, loans));
+        assertEquals(null, mainProcess.getBestLoan(3000,  loans));
 
     }
-
-//    @Test
-//    fun processFileShouldThrowException(){
-//        val filePath = "../../loan_files"
-//        val fileName = "market.jpg"
-//        val mainProcess = Main();
-//        mainProcess.startProcess(filePath, fileName)
-//    }
+    
 
 }

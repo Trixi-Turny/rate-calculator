@@ -7,18 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1624d73-d6c8-4433-8e49-4401d329f42e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/rate_calculator_jar/rate-calculator.jar" afterPath="$PROJECT_DIR$/out/artifacts/rate_calculator_jar/rate-calculator.jar" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/Main.class" afterPath="$PROJECT_DIR$/out/production/rate-calculator/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/Main.kt" afterPath="$PROJECT_DIR$/out/production/rate-calculator/Main.kt" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/MainKt.class" afterPath="$PROJECT_DIR$/out/production/rate-calculator/MainKt.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/Quote.class" afterPath="$PROJECT_DIR$/out/production/rate-calculator/Quote.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/Quote.kt" afterPath="$PROJECT_DIR$/out/production/rate-calculator/Quote.kt" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/Validator.class" afterPath="$PROJECT_DIR$/out/production/rate-calculator/Validator.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/Validator.kt" afterPath="$PROJECT_DIR$/out/production/rate-calculator/Validator.kt" />
-      <change beforePath="$PROJECT_DIR$/src/Main.kt" afterPath="$PROJECT_DIR$/src/Main.kt" />
-      <change beforePath="$PROJECT_DIR$/src/Quote.kt" afterPath="$PROJECT_DIR$/src/Quote.kt" />
-      <change beforePath="$PROJECT_DIR$/src/Validator.kt" afterPath="$PROJECT_DIR$/src/Validator.kt" />
+      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/META-INF/rate-calculator.kotlin_module" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/rate-calculator/MainTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/MainTest.kt" afterPath="$PROJECT_DIR$/src/MainTest.kt" />
+      <change beforePath="$PROJECT_DIR$/src/ValidatorTest.kt" afterPath="$PROJECT_DIR$/src/ValidatorTest.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +28,18 @@
       <file leaf-file-name="Main.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+            <state relative-caret-position="443">
+              <caret line="61" column="64" lean-forward="false" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -108,20 +110,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="market.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/loan_files/market.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Validator.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Validator.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
+            <state relative-caret-position="278">
               <caret line="54" column="60" lean-forward="false" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
               <folding />
             </state>
@@ -131,8 +123,8 @@
       <file leaf-file-name="ValidatorTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ValidatorTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="32" lean-forward="false" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+            <state relative-caret-position="473">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -185,15 +177,15 @@
         <option value="$PROJECT_DIR$/src/Loan.kt" />
         <option value="$PROJECT_DIR$/src/TxtProcessor.kt" />
         <option value="$PROJECT_DIR$/src/File.kt" />
-        <option value="$PROJECT_DIR$/src/MainTest.kt" />
         <option value="$PROJECT_DIR$/src/Tests/RateCalculatorTest.kt" />
         <option value="$PROJECT_DIR$/src/FileTest.kt" />
         <option value="$PROJECT_DIR$/src/CsvProcessor.kt" />
         <option value="$PROJECT_DIR$/src/loan_files/market.csv" />
-        <option value="$PROJECT_DIR$/src/ValidatorTest.kt" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Quote.kt" />
         <option value="$PROJECT_DIR$/src/Validator.kt" />
+        <option value="$PROJECT_DIR$/src/MainTest.kt" />
+        <option value="$PROJECT_DIR$/src/ValidatorTest.kt" />
         <option value="$PROJECT_DIR$/src/Main.kt" />
       </list>
     </option>
@@ -249,13 +241,7 @@
               <item name="RateCalculator" type="b2602c69:ProjectViewProjectNode" />
               <item name="rate-calculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Loan" type="2c5a2ef7:KtClassOrObjectTreeNode" />
-            </path>
-            <path>
-              <item name="RateCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rate-calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="PaymentCalculator" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+              <item name="ValidatorTest" type="2c5a2ef7:KtClassOrObjectTreeNode" />
             </path>
           </expand>
           <select />
@@ -593,14 +579,11 @@
       <workItem from="1539554038393" duration="7337000" />
       <workItem from="1539600260054" duration="41029000" />
       <workItem from="1540047153492" duration="599000" />
-      <workItem from="1540048200712" duration="27343000" />
+      <workItem from="1540048200712" duration="27728000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ValidatorTest - 2018.10.21 at 10h 28m 30s.xml">
-      <configuration name="ValidatorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ValidatorTest - 2018.10.21 at 10h 29m 19s.xml">
       <configuration name="ValidatorTest" configurationId="JUnit" />
     </history-entry>
@@ -628,9 +611,12 @@
     <history-entry file="ValidatorTest - 2018.10.21 at 19h 22m 22s.xml">
       <configuration name="ValidatorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ValidatorTest - 2018.10.21 at 20h 02m 59s.xml">
+      <configuration name="ValidatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76308000" />
+    <option name="totallyTimeSpent" value="76693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1656" height="1027" extended-state="0" />
@@ -644,7 +630,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.31219807" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21675393" sideWeight="0.68780196" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21675393" sideWeight="0.68780196" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1012,7 +998,7 @@
         <state relative-caret-position="45">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1021,14 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1078,24 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ValidatorTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="32" lean-forward="false" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Validator.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="54" column="60" lean-forward="false" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Loan.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1112,10 +1072,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ValidatorTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Validator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="54" column="60" lean-forward="false" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        <state relative-caret-position="443">
+          <caret line="61" column="64" lean-forward="false" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
           <folding />
         </state>
       </provider>
