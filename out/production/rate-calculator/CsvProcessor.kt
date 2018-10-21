@@ -23,8 +23,7 @@ class CsvProcessor : FileProcessor {
         try {
 
             var line: String?
-            println( path+ System.getProperty("user.dir"));
-
+            
             fileReader = BufferedReader(FileReader(path))
 
             // Read CSV header

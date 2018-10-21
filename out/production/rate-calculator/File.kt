@@ -12,10 +12,7 @@ class File(val filePath: String, val fileName: String) {
             mime = Files.probeContentType(path);
 
         } catch (e: IllegalStateException) {
-            mime = "Could not find file with name: " + this.fileName
-            println(mime);
-            return mime;
-
+            throw  IllegalArgumentException("Could not find file with name: " + this.fileName);
         }
         return mime
     }

@@ -61,7 +61,8 @@ class Main {
     fun main(args: Array<String>) {
         var amountRequested: Double;
         var expectedNoOfArgs : Int = 2;
-            if(Validator.isValidArgs(args, expectedNoOfArgs)){
+        try {
+            if (Validator.isValidArgs(args, expectedNoOfArgs)) {
                 val fileName = args[0];
 
                 if (Validator.canBeConvertedToDouble(args[1])) {
@@ -75,4 +76,9 @@ class Main {
                     }
                 }
             }
+        }catch(e:IllegalArgumentException){
+            println(e.message);
+
+
+        }
     }
