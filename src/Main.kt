@@ -14,7 +14,7 @@ class Main {
 
                 val loans: ArrayList<Loan>? = fileProcessor?.processFile(file.filePath + file.fileName);
                 if (loans != null) {
-                    val bestLoan = getBestLoan(amountRequested, noOfMonths, loans);
+                    val bestLoan = getBestLoan(amountRequested, loans);
                     if(bestLoan!=null) {
                         val paymentCalculator = PaymentCalculator();
                         val monthlyRepayable = paymentCalculator.calculateMonthlyRepayment(amountRequested.toDouble(), bestLoan.rate, noOfMonths.toDouble() / 12, 1);
@@ -38,7 +38,7 @@ class Main {
 
     }
 
-    fun getBestLoan(amount: Int, noOfMonths: Int, loans: ArrayList<Loan>): Loan? {
+    fun getBestLoan(amount: Int, loans: ArrayList<Loan>): Loan? {
             val bestLoan = loans.filter({ it.availableAmount > amount }).minBy { it.rate };
 
             if(bestLoan == null){
@@ -54,29 +54,20 @@ class Main {
 
 
     fun main(args: Array<String>) {
-        var fileName: String = "";
         var amountRequested: Double;
-        if (args.size > 0) {
-            for (i: Int in 0 until args.size) {
-                if (Validator.isValidString(args[i])) {
-                    if (i == 0) {
-                        fileName = args[i];
-                    } else if (i == 1) {
-                        val divider = 100;
+        var expectedNoOfArgs : Int = 2;
+            if(Validator.isValidArgs(args, expectedNoOfArgs)){
+                val fileName = args[0];
 
-                        if (Validator.canBeConvertedToDouble(args[1])) {
-                            amountRequested = args[1].toDouble();
-                            if (Validator.isValidLoanAmount(amountRequested, divider)) {
-                                val init: Main = Main();
-                                init.startProcess(init.filePath, fileName, amountRequested.toInt());
-                            } else {
-                                println("Unfortunately the number entered is not a valid loan amount. Loans have to be exact multiples of " + divider)
-                            }
-                        }
-
+                if (Validator.canBeConvertedToDouble(args[1])) {
+                    amountRequested = args[1].toDouble();
+                    val divider = 100;
+                    if (Validator.isValidLoanAmount(amountRequested, divider)) {
+                        val init: Main = Main();
+                        init.startProcess(init.filePath, fileName, amountRequested.toInt());
+                    } else {
+                        println("Unfortunately the number entered is not a valid loan amount. Loans have to be exact multiples of " + divider)
                     }
                 }
-
             }
-        }
     }
