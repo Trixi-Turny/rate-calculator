@@ -1,13 +1,7 @@
 class Main {
 
     val filePath: String = System.getProperty("user.dir")+"/src/loan_files/";
-//    val fileName: String = "market.csv";
-//
-//    val amountRequested :Int  = 1000;
     val noOfMonths = 36;
-
-
-
     fun startProcess(filePath: String, fileName: String, amountRequested: Int) {
         val file = File(filePath, fileName);
 
@@ -32,7 +26,10 @@ class Main {
                 }
 
             } else {
-                throw  IllegalArgumentException("Unsupported File Type: " +mime+ "Currently supported file types are:"+ FileType.values().forEach { println(it.name) });
+                var fileTypes: String = "";
+                FileType.values().forEach {fileTypes+= it.name+"\n" };
+                throw  IllegalArgumentException("Unsupported File Type: " + mime + " \nCurrently Supported File types are: \n"+ fileTypes);
+
             }
         } catch (e: IllegalArgumentException) {
             println(e.message)
@@ -57,29 +54,24 @@ class Main {
 
 
     fun main(args: Array<String>) {
-        var fileName:String ="";
-        var amountRequested:Double;
-        if(args.size > 0){
-            for(i:Int in 0..args.size-1){
-                if(Validator.isValidString(args[i])){
-                    if(i==0){
+        var fileName: String = "";
+        var amountRequested: Double;
+        if (args.size > 0) {
+            for (i: Int in 0 until args.size) {
+                if (Validator.isValidString(args[i])) {
+                    if (i == 0) {
                         fileName = args[i];
-                    }
-                    else if(i==1){
-                        try{
-                            val divider = 100;
+                    } else if (i == 1) {
+                        val divider = 100;
+
+                        if (Validator.canBeConvertedToDouble(args[1])) {
                             amountRequested = args[1].toDouble();
-                            if(Validator.isValidLoanAmount(amountRequested, divider)){
+                            if (Validator.isValidLoanAmount(amountRequested, divider)) {
                                 val init: Main = Main();
-                                init.startProcess(init.filePath, fileName, amountRequested.toInt() );
-
-
-
-                            }else{
-                                println("Unfortunately the number entered is not a valid loan amount. Loans have to be exsact multiples of "+ divider)
+                                init.startProcess(init.filePath, fileName, amountRequested.toInt());
+                            } else {
+                                println("Unfortunately the number entered is not a valid loan amount. Loans have to be exact multiples of " + divider)
                             }
-                        }catch(e: IllegalArgumentException){
-                            println("amount can not be converted to a number.")
                         }
 
                     }
@@ -87,5 +79,4 @@ class Main {
 
             }
         }
-
     }
